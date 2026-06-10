@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Recruiting | Brainnovation Network</title>
+  <meta name="description" content="Hiring neurotech talent? Brainnovation Network partners with Reccy Neuro, the home of neurotech, so you can browse specialist talent, applicant intelligence, and funding data in one place.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="assets/header-web.jpg" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bn-reccy">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- HERO: matches the house hero on brainnovationnetwork.com -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="site-top">
+        <!-- House-wide announcement bar. Splices in from the parent BN template. -->
+        <div class="announce">
+          <a href="/join">Join the Brainnovation Network now</a>
+        </div>
+
+        <header class="nav" aria-label="Site header">
+          <div class="container nav-inner">
+            <a class="nav-brand" href="/" aria-label="Brainnovation Network home">
+              <img src="assets/bn-logo-white.png" alt="Brainnovation Network" width="1786" height="600" />
+            </a>
+
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+              <span></span><span></span><span></span>
+            </button>
+
+            <nav id="primary-nav" class="nav-menu" aria-label="Primary">
+              <ul>
+                <!-- Real anchors on the parent BN site TBD. These hrefs are placeholders. -->
+                <li><a href="/">Home</a></li>
+                <li><a href="/experts">Experts</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/recruiting" aria-current="page">Recruiting</a></li>
+                <li>
+                  <a class="btn btn-nav"
+                     data-cta-dest="signup"
+                     data-cta-content="nav_button"
+                     href="#">Hire on Reccy</a>
+                  <!-- Resolves to: https://app.reccy.dev/sign-up?...&utm_content=nav_button -->
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+      <div class="container hero-content">
+        <p class="hero-eyebrow">Recruiting</p>
+        <h1 id="hero-title">Hiring neurotech talent? Go straight to the source.</h1>
+        <p class="hero-sub">Reccy Neuro is the home of neurotech: specialist talent, company and funding intelligence, and a vetted hiring signal in one place.</p>
+        <div class="cta-row">
+          <a class="btn btn-gold"
+             data-cta-dest="discover"
+             data-cta-content="hero_primary"
+             href="#">Browse neurotech talent
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <!-- Label says "browse", so this points to /discover (browse), not the signup gate. Resolves to: https://app.reccy.dev/discover?...&utm_content=hero_primary -->
+          <a class="btn btn-outline-white"
+             data-cta-dest="jobsletter"
+             data-cta-content="jobsletter_secondary"
+             href="#">See the Jobsletter</a>
+          <!-- Resolves to: https://app.reccy.dev/jobsletter?...&utm_content=jobsletter_secondary -->
+        </div>
+        <p class="cta-reassure">Free to start. Browse the network before you sign up.</p>
+      </div>
+    </section>
+
+    <main id="main">
+      <!-- PARTNERSHIP LOCKUP BAND -->
+      <section class="partner-band" aria-label="A Brainnovation Network and Reccy Neuro partnership">
+        <div class="container partner-inner reveal">
+          <div class="partner-lockup">
+            <img class="partner-bn" src="assets/bn-logo-color.png" alt="Brainnovation Network" />
+            <span class="partner-x" aria-hidden="true">×</span>
+            <!-- PLACEHOLDER: trimmed Reccy wordmark. Swap for the official Reccy brand asset before launch. -->
+            <img class="partner-reccy" src="assets/reccy-wordmark-dark-trim.png" alt="Reccy Neuro" />
+          </div>
+        </div>
+      </section>
+
+      <!-- LOGO WALL: companies on Reccy. Logos provided with permission.
+           Confirm exact framing (customer vs. profiled) with the Reccy side before launch. -->
+      <section class="logos band-white" aria-label="Neurotech companies on Reccy">
+        <div class="container">
+          <p class="logos-kicker reveal">Where neurotech hires</p>
+        </div>
+        <div class="logo-marquee">
+          <ul class="logo-track">
+            <li><img src="assets/logos/neuralink-mono.png" alt="Neuralink" /></li>
+            <li><img src="assets/logos/synchron-mono.png" alt="Synchron" /></li>
+            <li><img src="assets/logos/blackrock-neurotech-mono.png" alt="Blackrock Neurotech" /></li>
+            <li><img src="assets/logos/paradromics-mono.png" alt="Paradromics" /></li>
+            <li><img src="assets/logos/precision-neuroscience-mono.png" alt="Precision Neuroscience" /></li>
+            <li><img src="assets/logos/kernel-mono.png" alt="Kernel" /></li>
+            <li><img src="assets/logos/neuropace-mono.png" alt="NeuroPace" /></li>
+            <li><img src="assets/logos/axoft-mono.png" alt="Axoft" /></li>
+            <li><img src="assets/logos/motif-neurotech-mono.png" alt="Motif Neurotech" /></li>
+            <li><img src="assets/logos/bios-health-mono.png" alt="Bios Health" /></li>
+            <li><img src="assets/logos/subsense-mono.png" alt="Subsense" /></li>
+            <li><img src="assets/logos/theta-neurotech-mono.png" alt="Theta Neurotech" /></li>
+            <!-- duplicate set for a seamless loop; hidden from assistive tech -->
+            <li aria-hidden="true"><img src="assets/logos/neuralink-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/synchron-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/blackrock-neurotech-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/paradromics-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/precision-neuroscience-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/kernel-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/neuropace-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/axoft-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/motif-neurotech-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/bios-health-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/subsense-mono.png" alt="" /></li>
+            <li aria-hidden="true"><img src="assets/logos/theta-neurotech-mono.png" alt="" /></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- WHY -->
+      <section class="why band-paper" aria-labelledby="why-title">
+        <div class="container">
+          <span class="kicker">Why this partnership</span>
+          <p class="why-body" id="why-title"><b>We point our network to Reccy because it's the trusted referral path.</b> Brainnovation Network reaches the people who validate, distribute, and adopt neurotech. Reccy reaches the people who build it.</p>
+          <p class="why-hook">When a founder needs to hire, Reccy is where we send them.</p>
+        </div>
+      </section>
+
+      <!-- APPLICANT INTELLIGENCE (relocated panel) -->
+      <section class="reasoning band-white" aria-labelledby="reasoning-title">
+        <div class="container reasoning-grid">
+          <div class="reasoning-copy">
+            <span class="kicker">Applicant intelligence</span>
+            <h2 id="reasoning-title">See the reasoning before you open a resume</h2>
+            <p>Every candidate on Reccy arrives with evidence-backed scoring across 8 dimensions, so your team reasons about the work, not the keywords. Strengths, gaps, and fit are clear before you spend a minute on a resume.</p>
+            <a class="text-link"
+               data-cta-dest="discover"
+               data-cta-content="reasoning_cta"
+               href="#">See how scoring works
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <!-- Resolves to: https://app.reccy.dev/discover?...&utm_content=reasoning_cta -->
+          </div>
+
+          <!-- Illustrative product panel. Decorative sample data, hidden from assistive tech. -->
+          <div class="panel reveal" aria-hidden="true">
+            <div class="panel-chrome">
+              <i></i><i></i><i></i>
+              <span>Reccy · applicant intelligence</span>
+            </div>
+            <div class="panel-body">
+              <div class="panel-head">
+                <div class="panel-who">
+                  <div class="panel-avatar">SN</div>
+                  <div><b>Signal-processing lead</b><small>Neurostimulation · 8 yrs</small></div>
+                </div>
+                <div class="panel-score"><b>94</b><small>Match</small></div>
+              </div>
+              <div class="dims">
+                <div class="dim"><span>BCI / EEG depth</span><div class="track"><i style="--v:95%"></i></div><b>95</b></div>
+                <div class="dim"><span>Signal processing</span><div class="track"><i style="--v:92%"></i></div><b>92</b></div>
+                <div class="dim"><span>Neurostim systems</span><div class="track"><i style="--v:88%"></i></div><b>88</b></div>
+                <div class="dim"><span>Shipped hardware</span><div class="track"><i style="--v:81%"></i></div><b>81</b></div>
+                <div class="dim"><span>Location fit</span><div class="track"><i style="--v:97%"></i></div><b>97</b></div>
+              </div>
+              <div class="panel-foot"><span class="led"></span>Evidence-backed across 8 dimensions, before you open a resume</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURES -->
+      <section class="features band-tint" aria-labelledby="features-title">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="kicker">What you get on Reccy</span>
+            <h2 id="features-title">A specialist network, and the data behind it</h2>
+          </div>
+
+          <ul class="bento">
+            <li class="feature big reveal">
+              <span class="feature-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="7" r="3"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/><circle cx="19" cy="9" r="2"/><circle cx="5" cy="9" r="2"/></svg></span>
+              <h3>Specialist talent network</h3>
+              <p>BCI engineers, signal processors, neurostimulation specialists, and roles you won't find on generic boards. 2,500+ professionals across the field.</p>
+              <div class="mini-avatars" aria-hidden="true">
+                <span class="av">SN</span><span class="av">JK</span><span class="av">AR</span><span class="av">ML</span><span class="av">DV</span>
+                <span class="av-count">2,500+ specialists</span>
+              </div>
+              <div class="chips" aria-hidden="true">
+                <span class="chip">BCI</span><span class="chip">DBS</span><span class="chip">EEG / ECoG</span><span class="chip">TMS</span><span class="chip">Optogenetics</span><span class="chip">Neuroprosthetics</span>
+              </div>
+              <a class="feature-link"
+                 data-cta-dest="discover"
+                 data-cta-content="feature_grid"
+                 href="#">Browse the network
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+              <!-- Resolves to: https://app.reccy.dev/discover?...&utm_content=feature_grid -->
+            </li>
+
+            <li class="feature sm reveal">
+              <span class="feature-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h4l2 6 4-14 2 8h6"/></svg></span>
+              <h3>8-dimension applicant scoring</h3>
+              <p>Every applicant comes with evidence-backed strengths and gaps, so your team sees the reasoning before opening a resume.</p>
+              <div class="mini-bars" aria-hidden="true">
+                <i style="--h:46%"></i><i style="--h:70%"></i><i style="--h:58%"></i><i style="--h:88%"></i><i style="--h:64%"></i><i style="--h:80%"></i><i style="--h:52%"></i><i style="--h:74%"></i>
+                <span class="mini-cap">8 dimensions</span>
+              </div>
+            </li>
+
+            <li class="feature third reveal">
+              <span class="feature-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+              <h3>Semantic search</h3>
+              <p>Find people by specialty, seniority, and domain, the way you'd describe the role.</p>
+              <div class="mini-search" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                <span>signal-processing lead, remote</span>
+              </div>
+            </li>
+
+            <li class="feature third reveal">
+              <span class="feature-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 21V10l6-4 6 4v11M9 21v-6h2v6M21 21V13l-6-3"/></svg></span>
+              <h3>Funding intelligence</h3>
+              <p>300+ companies with rounds, leadership, and a full investor database.</p>
+              <div class="mini-fund" aria-hidden="true">
+                <span class="fund-tag">Series A</span>
+                <span class="fund-amt">$4.2M</span>
+                <span class="fund-trend"><i style="--h:34%"></i><i style="--h:52%"></i><i style="--h:44%"></i><i style="--h:72%"></i><i style="--h:100%"></i></span>
+              </div>
+            </li>
+
+            <li class="feature third reveal">
+              <span class="feature-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="4" rx="1"/><rect x="3" y="12" width="11" height="8" rx="1"/><path d="M18 12h2v8h-2z"/></svg></span>
+              <h3>Weekly Jobsletter</h3>
+              <p>Live openings to 2,500+ neurotech subscribers, free to join.</p>
+              <div class="mini-news" aria-hidden="true">
+                <span class="news-dot"></span>
+                <span class="news-tag">12 new roles this week</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PROOF -->
+      <section class="proof band-navy" aria-labelledby="proof-title">
+        <div class="container">
+          <div class="proof-head reveal">
+            <span class="kicker">Results</span>
+            <h2 id="proof-title">What teams see in practice</h2>
+            <p class="proof-lead">Each dot is one applicant. The teal ones are the relevant ones.</p>
+          </div>
+
+          <div class="results">
+            <article class="result reveal">
+              <div class="result-viz">
+                <div class="dotgrid" data-total="60" data-hit="54" aria-hidden="true"></div>
+              </div>
+              <div class="result-info">
+                <span class="result-tag">Seed-stage neurotech team</span>
+                <div class="result-meta">
+                  <div class="rm"><b>60+</b><span>applicants in days</span></div>
+                  <div class="rm"><b>28</b><span>within 24 hours</span></div>
+                </div>
+                <p class="result-note">Around 90% were in the right location and highly relevant.</p>
+              </div>
+            </article>
+
+            <article class="result flip reveal">
+              <div class="result-viz">
+                <div class="dotgrid" data-total="30" data-hit="25" aria-hidden="true"></div>
+              </div>
+              <div class="result-info">
+                <span class="result-tag">Global neurotech company</span>
+                <div class="result-meta">
+                  <div class="rm"><b>30+</b><span>applicants</span></div>
+                  <div class="rm"><b>25</b><span>strong matches</span></div>
+                </div>
+                <p class="result-note">Higher quality density than generic boards, with far less noise.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS (carousel: one large tile, next peeking) -->
+      <section class="how band-paper" aria-labelledby="how-title">
+        <div class="container">
+          <div class="how-head reveal">
+            <div>
+              <span class="kicker">How it works</span>
+              <h2 id="how-title">From sign-up to first relevant candidate</h2>
+            </div>
+            <div class="how-nav">
+              <button class="how-arrow how-prev" type="button" aria-label="Previous step">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+              </button>
+              <button class="how-arrow how-next" type="button" aria-label="Next step">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="how-scroll reveal">
+            <ol class="how-track">
+              <li class="step">
+                <span class="step-ghost" aria-hidden="true">01</span>
+                <span class="step-node">01</span>
+                <div class="step-body">
+                  <h3>Create your Reccy account</h3>
+                  <p>Free to start. You're in the neurotech ecosystem in under a minute.</p>
+                </div>
+              </li>
+              <li class="step">
+                <span class="step-ghost" aria-hidden="true">02</span>
+                <span class="step-node">02</span>
+                <div class="step-body">
+                  <h3>Explore companies, funding, and talent</h3>
+                  <p>Browse 300+ neurotech companies, funding rounds, the investor database, and 2,500+ specialists.</p>
+                </div>
+              </li>
+              <li class="step">
+                <span class="step-ghost" aria-hidden="true">03</span>
+                <span class="step-node">03</span>
+                <div class="step-body">
+                  <h3>Surface the right fit</h3>
+                  <p>Semantic search plus 8-dimension scoring, so your team reasons about the work, not the keywords.</p>
+                </div>
+              </li>
+              <li class="step step-cta">
+                <span class="step-ghost" aria-hidden="true">04</span>
+                <span class="step-node">04</span>
+                <div class="step-body">
+                  <h3>Move faster than generic boards allow</h3>
+                  <p>Specialist density means less noise to wade through.</p>
+                  <a class="step-link" data-cta-dest="signup" data-cta-content="how_it_works" href="#">Start on Reccy
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                  </a>
+                  <!-- Resolves to: https://app.reccy.dev/sign-up?...&utm_content=how_it_works -->
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="how-dots" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <!-- FINAL CTA -->
+      <section class="final-cta band-navy" aria-labelledby="final-title">
+        <div class="container final-inner">
+          <h2 id="final-title">The neurotech hiring shortcut is one click away.</h2>
+          <a class="btn btn-gold btn-lg"
+             data-cta-dest="signup"
+             data-cta-content="final_band"
+             href="#">Start on Reccy
+            <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <!-- Resolves to: https://app.reccy.dev/sign-up?...&utm_content=final_band -->
+          <p class="final-reassure">Free to start. You're in the ecosystem in under a minute.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-lockup" aria-label="A Brainnovation Network and Reccy Neuro partnership">
+          <img class="footer-bn" src="assets/bn-logo-white.png" alt="Brainnovation Network" />
+          <span class="lockup-x" aria-hidden="true">×</span>
+          <!-- PLACEHOLDER: trimmed Reccy wordmark (white). Swap for the official Reccy brand asset before launch. -->
+          <img class="footer-reccy" src="assets/reccy-wordmark-white-trim.png" alt="Reccy Neuro" />
+        </div>
+        <p class="footer-copy">&copy; <span id="footer-year"></span> Brainnovation Network. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+  </div>
+</body>
+</html>
