@@ -8,8 +8,7 @@
 (function () {
   const RECCY_BASE = {
     signup: 'https://app.reccy.dev/sign-up',
-    discover: 'https://app.reccy.dev/discover',
-    jobsletter: 'https://app.reccy.dev/jobsletter',
+    explore: 'https://neuro.reccy.dev/',
   };
 
   const UTM_BASE = {

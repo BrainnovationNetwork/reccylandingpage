@@ -11,6 +11,8 @@
   --bn-teal: #3FAE97;
   --bn-gold: #F1B434;
   --bn-pink: #E06287;
+  --reccy-purple: #8456F4;        /* reccy neuro brand purple (for the "neuro") */
+  --reccy-purple-light: #A78BFA;  /* lightened for dark backgrounds */
 
   --paper: #FBFAF7;
   --white: #FFFFFF;
@@ -78,6 +80,10 @@
   font-size: 0.74rem; font-weight: 600; letter-spacing: 0.16em;
   text-transform: uppercase; color: var(--muted);
 }
+
+/* reccy neuro brand name: "neuro" in their purple (prose only; kept monochrome inside buttons/links) */
+.bn-reccy .rn-neuro { color: var(--reccy-purple); }
+.bn-reccy .hero .rn-neuro, .bn-reccy .band-navy .rn-neuro { color: var(--reccy-purple-light); }
 
 /* Section background bands (for clear separation between sections) */
 .bn-reccy .band-paper { background: var(--paper); }
@@ -449,8 +455,9 @@
 }
 
 @media (max-width: 560px) {
-  .bn-reccy .partner-bn { height: 78px; }
-  .bn-reccy .partner-reccy { height: 30px; }
+  .bn-reccy .partner-lockup { flex-direction: column; gap: 22px; }
+  .bn-reccy .partner-bn { height: 80px; }
+  .bn-reccy .partner-reccy { height: 32px; }
   .bn-reccy .step { flex-basis: 85%; }
   .bn-reccy .result-meta { gap: 28px; }
   .bn-reccy .dim { grid-template-columns: 100px 1fr 28px; gap: 10px; font-size: 0.8rem; }
